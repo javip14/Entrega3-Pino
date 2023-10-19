@@ -62,7 +62,7 @@ input {
     box-sizing: border-box;
     border: 1px solid #05ff3f;
 }
-
+/* inscripciones */
 button {
     background-color: white;
     border-radius: 2px;
@@ -72,6 +72,7 @@ button {
 iframe {
     margin-top: 1%;
 }
+
 
 /* header */
 .ligaLogo {
@@ -183,4 +184,12 @@ label {
 
 .carouselExample {
     margin-bottom: 0px;
+}
+
+.navbar-toggler img {
+    width: 45px; 
+    height: 45px;
+    color: #ffffff;
+    border: white 2px;
+    ;
 }
