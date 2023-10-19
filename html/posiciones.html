@@ -1,134 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POSICIONES</title>
-    <link rel="stylesheet" href="../css/estilo.css">
-    <link rel="shortcut icon" href="img/LOGO 23.png">
-    
-</head>
-<body>
-  <header>
-      <h1 class="tituloPrincipal">LIGA DE LOS HINCHAS</h1>
-      <nav>
-          <center>
-          <ul class="navLink">
-              <img src="../img/LOGO 23.png" width="10%" alt="logo Liga">
-              <li><a href="../index.html"> INICIO </a></li>
-              <li><a href="fixture.html"> FIXTURE </a></li>
-              <li><a href="posiciones.html"> POSICIONES </a></li>
-              <li><a href="goleadores.html"> GOLEADORES </a></li>
-              <li><a href="inscripciones.html"> INSCRIPCIONES </a></li>
-              <li><a href="quienessomos.html"> QUIENES SOMOS </a></li>
-              <li><a href="instalaciones.html"> INSTALACIONES </a></li>
-          </center>
-          </ul>
-      </nav>
-  </header>
-  
-  <h2>POSICIONES</h2>
-  <br>
-  <br>
-<center>
-  <table>  
-    <tr class="titulosTabla"><!-- inicio de fila-->   
-      <td>  POSICIÓN</td>   
-      <td>  EQUIPO </td>   
-      <td>  PJ</td>
-      <td>  DIF</td> 
-      <td>  PUNTOS </td> 
-    </tr><!-- cierre de fila -->  
-    <tr><!-- inicio de otra fila-->   
-      <td>  1   </td>   
-      <td>U. De Chile</td>
-      <td>  9   </td>
-      <td>  13  </td>
-      <td>  22  </td>
-    <tr>
-      <td>  2 </td>   
-      <td>Colo - Colo</td>
-      <td>  9 </td>
-      <td>  13  </td>
-      <td>  21  </td>
-    </tr>
-    <tr>
-      <td>  3 </td>   
-      <td>Unión Española</td>
-      <td>  9 </td>
-      <td>  13  </td>
-      <td>  18  </td>
-    </tr>
-    <tr>
-      <td>  4 </td>   
-      <td>U. Católica</td>
-      <td>  9 </td>
-      <td>  4  </td>
-      <td>  16  </td>
-    </tr>
-    <tr>
-      <td>  5 </td>   
-      <td>Audax Italiano</td>
-      <td>  9 </td>
-      <td>  14  </td>
-      <td>  15  </td>
-    </tr>
-    <tr>
-      <td>  6 </td>   
-      <td>Coquimbo U.</td>
-      <td>  9 </td>
-      <td>  4  </td>
-      <td>  12  </td>
-    </tr>
-    <tr>
-      <td>  7 </td>   
-      <td>Cobreloa</td>
-      <td>  9 </td>
-      <td>  10  </td>
-      <td>  11  </td>
-    </tr>
-    <tr>
-      <td>  8 </td>   
-      <td>Recoleta</td>
-      <td>  9 </td>
-      <td>  5  </td>
-      <td>  9  </td>
-    </tr>
-    <tr>
-      <td>  9 </td>   
-      <td>Rangers</td>
-      <td>  9 </td>
-      <td>  12  </td>
-      <td>  8  </td>
-    </tr>
-    <tr>
-      <td>  10 </td>   
-      <td>Huachipato</td>
-      <td>  9 </td>
-      <td>  10  </td>
-      <td>  8  </td>
-    </tr>
+<html lang="es">
 
-    </tr><!-- cierre de la segunda fila --> 
-  </table>
-</center>
-<br><br><br><br><br><br><br>
-<footer class="footerMagic">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POSICIONES</title>
+
+  <!-- CSS BS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="../css/estilo.css">
+  <link rel="shortcut icon" href="img/LOGO 23.png">
+
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg encabezado">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="ligaLogo" src="../img/LOGO 23.png" alt="Logo Liga">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav fuentesNav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="../index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../html/fixture.html">FIXTURE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../html/posiciones.html">POSICIONES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../html/goleadores.html">GOLEADORES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../html/quienessomos.html">QUIENES SOMOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../html/instalaciones.html">INSTALACIONES</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- CUERPO -->
+
+  <!-- CAROUSEL -->
+
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../img/banner.jpg" class="d-block w-100" alt="GolUC">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/banner-1.jpg" class="d-block w-100" alt="iquique">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/banner-2.jpg" class="d-block w-100" alt="angello">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/banner-3.jpg" class="d-block w-100" alt="volcan">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/banner-4.jpg" class="d-block w-100" alt="volcanOC">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- TITULO -->
+
+  <div class="tituloHoja mt-3">
+    <h2>POSICIONES</h2>
+  </div>
+
+  <center>
+    <table>
+      <tr class="titulosTabla"><!-- inicio de fila-->
+        <td> POSICIÓN</td>
+        <td> EQUIPO </td>
+        <td> PJ</td>
+        <td> DIF</td>
+        <td> PUNTOS </td>
+      </tr><!-- cierre de fila -->
+      <tr><!-- inicio de otra fila-->
+        <td> 1 </td>
+        <td>U. De Chile</td>
+        <td> 9 </td>
+        <td> 13 </td>
+        <td> 22 </td>
+      <tr>
+        <td> 2 </td>
+        <td>Colo - Colo</td>
+        <td> 9 </td>
+        <td> 13 </td>
+        <td> 21 </td>
+      </tr>
+      <tr>
+        <td> 3 </td>
+        <td>Unión Española</td>
+        <td> 9 </td>
+        <td> 13 </td>
+        <td> 18 </td>
+      </tr>
+      <tr>
+        <td> 4 </td>
+        <td>U. Católica</td>
+        <td> 9 </td>
+        <td> 4 </td>
+        <td> 16 </td>
+      </tr>
+      <tr>
+        <td> 5 </td>
+        <td>Audax Italiano</td>
+        <td> 9 </td>
+        <td> 14 </td>
+        <td> 15 </td>
+      </tr>
+      <tr>
+        <td> 6 </td>
+        <td>Coquimbo U.</td>
+        <td> 9 </td>
+        <td> 4 </td>
+        <td> 12 </td>
+      </tr>
+      <tr>
+        <td> 7 </td>
+        <td>Cobreloa</td>
+        <td> 9 </td>
+        <td> 10 </td>
+        <td> 11 </td>
+      </tr>
+      <tr>
+        <td> 8 </td>
+        <td>Recoleta</td>
+        <td> 9 </td>
+        <td> 5 </td>
+        <td> 9 </td>
+      </tr>
+      <tr>
+        <td> 9 </td>
+        <td>Rangers</td>
+        <td> 9 </td>
+        <td> 12 </td>
+        <td> 8 </td>
+      </tr>
+      <tr>
+        <td> 10 </td>
+        <td>Huachipato</td>
+        <td> 9 </td>
+        <td> 10 </td>
+        <td> 8 </td>
+      </tr>
+
+      </tr><!-- cierre de la segunda fila -->
+    </table>
+  </center>
+  <br><br><br><br><br><br><br>
+  <footer class="footerMagic">
     <br>
     <br>
     <br>
     <center>
-    <a href="https://www.instagram.com/ligadeloshinchas/">
+      <a href="https://www.instagram.com/ligadeloshinchas/">
         <img src="../img/instagram.png" width="5%" alt="instagram" class="socialMedia">
-        </a>
-        <a href="https://www.youtube.com/channel/UC2h4QHnriYRCSRneR3cPmeQ">
+      </a>
+      <a href="https://www.youtube.com/channel/UC2h4QHnriYRCSRneR3cPmeQ">
         <img src="../img/youtube.png" width="5%" alt="youtube" class="socialMedia">
-    </a>
-                <p class="ligaDelos"> LIGA DE LOS HINCHAS 2023 </p>
-                <p class="derechosReservados"> Todos los derechos reservados </p>
+      </a>
+      <p class="ligaDelos"> LIGA DE LOS HINCHAS 2023 </p>
+      <p class="derechosReservados"> Todos los derechos reservados </p>
     </center>
 
-</footer>
+  </footer>
+
+  <!-- JS BS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>

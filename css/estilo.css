@@ -68,6 +68,10 @@ button {
     border-color: #05ff3f;
 }
 
+iframe {
+    margin-top: 1%;
+}
+
 /* header */
 .ligaLogo {
     width: 120px;
@@ -88,20 +92,19 @@ button {
 
 /* Banner Noticias */
 
-.tituloNoticias {
+.tituloHoja {
     background-color: #05ff3f;
     color: #3D03AA;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     padding: 16px;
+    margin-top: none;
 }
 
 .titulosTabla {
     font-weight: bold;
 }
-
-
 
 .footerMagic {
     background-image: url(../img/footer.jpg);
@@ -132,6 +135,11 @@ button {
 
 .quienesSomos {
     text-align: center;
+    margin-top: 1%;
+    margin-right: 15%;
+    margin-bottom: 1%;
+    margin-left: 15%;
+
 }
 
 .formulario {
@@ -170,4 +178,8 @@ label {
 
 .text-body-secondary {
     color: white;
+}
+
+.carouselExample {
+    margin-bottom: 0px;
 }
