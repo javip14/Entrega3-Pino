@@ -1,61 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INSTALACIONES</title>
+
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="shortcut icon" href="img/LOGO 23.png">
-    
-</head>
-<body>
-  <header>
-      <h1 class="tituloPrincipal">LIGA DE LOS HINCHAS</h1>
-      <nav>
-          <center>
-          <ul class="navLink">
-              <img src="../img/LOGO 23.png" width="10%" alt="logo Liga">
-              <li><a href="../index.html"> INICIO </a></li>
-              <li><a href="fixture.html"> FIXTURE </a></li>
-              <li><a href="posiciones.html"> POSICIONES </a></li>
-              <li><a href="goleadores.html"> GOLEADORES </a></li>
-              <li><a href="inscripciones.html"> INSCRIPCIONES </a></li>
-              <li><a href="quienessomos.html"> QUIENES SOMOS </a></li>
-              <li><a href="instalaciones.html"> INSTALACIONES </a></li>
-          </center>
-          </ul>
-      </nav>
-  </header>
-  
-<h2>INSTALACIONES</h2>
-<br>
-<br>
-<center>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.789540739647!2d-70.54016628783339!3d-33.42873087328709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662ce7d40f68d7f%3A0x15e1d5442ae45c35!2sCiudad%20Deportiva%20USS!5e0!3m2!1ses!2scl!4v1696207378262!5m2!1ses!2scl" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, cumque nam hic enim natus assumenda qui illum voluptatum non placeat consequuntur eos odit ab architecto! Assumenda ad error adipisci quas et est dolorem iure consectetur ab quia quam, minus doloribus! Labore, officia quam doloremque assumenda pariatur numquam est blanditiis temporibus.
-  </p>
-  <br>
-  <img src="../img/Zamorano.jpg" width="400" alt="foto aérea">
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ducimus veniam perspiciatis eligendi reprehenderit non consequatur tempore vero perferendis? Ipsum rem magni praesentium soluta, impedit nulla sit exercitationem perferendis? Aliquid laborum, eius cumque cum, illo illum esse similique, voluptate eaque reiciendis aut architecto porro modi ad ut quam nesciunt. Odio.</p>
-</center>
 
-<br><br><br><br><br><br><br>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg encabezado">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="ligaLogo" src="../img/LOGO 23.png" alt="Logo Liga">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav fuentesNav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../html/fixture.html">FIXTURE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../html/posiciones.html">POSICIONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../html/goleadores.html">GOLEADORES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../html/quienessomos.html">QUIENES SOMOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../html/instalaciones.html">INSTALACIONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../html/inscripciones.html">INSCRIPCIONES</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- CUERPO -->
+
+    <!-- CAROUSEL -->
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/banner.jpg" class="d-block w-100" alt="GolUC">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/banner-1.jpg" class="d-block w-100" alt="iquique">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/banner-2.jpg" class="d-block w-100" alt="angello">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/banner-3.jpg" class="d-block w-100" alt="volcan">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/banner-4.jpg" class="d-block w-100" alt="volcanOC">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- TITULO -->
+
+    <div class="tituloHoja mt-3">
+        <h2>INSTALACIONES</h2>
+    </div>
+
+    <center>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.789540739647!2d-70.54016628783339!3d-33.42873087328709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662ce7d40f68d7f%3A0x15e1d5442ae45c35!2sCiudad%20Deportiva%20USS!5e0!3m2!1ses!2scl!4v1696207378262!5m2!1ses!2scl"
+            width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, cumque nam hic enim natus assumenda qui illum
+            voluptatum non placeat consequuntur eos odit ab architecto! Assumenda ad error adipisci quas et est dolorem
+            iure consectetur ab quia quam, minus doloribus! Labore, officia quam doloremque assumenda pariatur numquam
+            est blanditiis temporibus.
+        </p>
+        <br>
+        <img src="../img/Zamorano.jpg" width="400" alt="foto aérea">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ducimus veniam perspiciatis eligendi
+            reprehenderit non consequatur tempore vero perferendis? Ipsum rem magni praesentium soluta, impedit nulla
+            sit exercitationem perferendis? Aliquid laborum, eius cumque cum, illo illum esse similique, voluptate eaque
+            reiciendis aut architecto porro modi ad ut quam nesciunt. Odio.</p>
+    </center>
+
+    <br><br><br><br><br><br><br>
     <footer class="footerMagic">
         <br>
         <br>
         <br>
         <center>
-        <a href="https://www.instagram.com/ligadeloshinchas/">
-            <img src="../img/instagram.png" width="5%" alt="instagram" class="socialMedia">
+            <a href="https://www.instagram.com/ligadeloshinchas/">
+                <img src="../img/instagram.png" width="5%" alt="instagram" class="socialMedia">
             </a>
             <a href="https://www.youtube.com/channel/UC2h4QHnriYRCSRneR3cPmeQ">
-            <img src="../img/youtube.png" width="5%" alt="youtube" class="socialMedia">
-        </a>
-                    <p class="ligaDelos"> LIGA DE LOS HINCHAS 2023 </p>
-                    <p class="derechosReservados"> Todos los derechos reservados </p>
+                <img src="../img/youtube.png" width="5%" alt="youtube" class="socialMedia">
+            </a>
+            <p class="ligaDelos"> LIGA DE LOS HINCHAS 2023 </p>
+            <p class="derechosReservados"> Todos los derechos reservados </p>
         </center>
-    
+
     </footer>
 
+    <!-- JS BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
