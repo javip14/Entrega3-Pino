@@ -255,7 +255,7 @@ footer {
     }
 }
 
-/*VERSIÓN ESCRITORIO*/
+/* VERSIÓN ESCRITORIO */
 
 @media (min-width: 1024px) {
     .gridPadre {
