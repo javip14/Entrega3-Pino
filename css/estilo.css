@@ -91,9 +91,27 @@ button {
 }
 
 iframe {
-    margin-top: 1%;
+    /* margin: 10px;
+    border: 10px; */
 }
 
+/* QUIENES SOMOS */
+.youTube {
+    margin: 10px;
+    padding: 10px;
+}
+
+.quienesSomos {
+    /* text-align: center; */
+    margin: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.tablaFixture {
+    margin: 10px;
+    padding: 10px;
+}
 
 /* header */
 .ligaLogo {
@@ -127,15 +145,6 @@ iframe {
 
 .titulosTabla {
     font-weight: bold;
-}
-
-.quienesSomos {
-    text-align: center;
-    margin-top: 1%;
-    margin-right: 15%;
-    margin-bottom: 1%;
-    margin-left: 15%;
-
 }
 
 .formulario {
@@ -202,8 +211,9 @@ label {
 }
 
 aside {
-    /* background-color: #273c2c; */
-    grid-area: publi;
+    margin: 20px;
+    padding: 10%;
+
 }
 
 .gridPadre {
