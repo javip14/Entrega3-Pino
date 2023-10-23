@@ -16,6 +16,14 @@ h1 {
     font-family: "antonio", sans-serif;
 }
 
+h2 {
+    font-size: 40px;
+    color: #05ff3f;
+    font-weight: bold;
+    text-align: center;
+    font-family: "antonio", sans-serif;
+}
+
 h3 {
     color: white;
     font-size: 1rem;
@@ -90,15 +98,30 @@ button {
     border-color: #05ff3f;
 }
 
-iframe {
-    /* margin: 10px;
-    border: 10px; */
-}
-
 /* QUIENES SOMOS */
 .youTube {
     margin: 10px;
     padding: 10px;
+    height: 250px; 
+}
+
+.mapa-responsive {
+    width: 50%;
+    padding-bottom: 30%;
+}
+
+.imagen-responsive {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.centrarElemento {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 .quienesSomos {
