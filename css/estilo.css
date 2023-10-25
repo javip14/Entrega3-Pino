@@ -68,6 +68,7 @@ table {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin: TOP 1%;
+    width: 80%;
 }
 
 label {
@@ -91,23 +92,40 @@ input {
     border: 1px solid #05ff3f;
 }
 
-/* inscripciones */
+/* FIXTURE */
+.tabla-transparente {
+    background-color: transparent;
+    opacity: 0.5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* INSCRIPCIONES */
 button {
     background-color: white;
     border-radius: 2px;
     border-color: #05ff3f;
 }
 
+/* INSTALACIONES */
+.googleMaps {
+    margin: 10px;
+    padding: 10px;
+    height: 70%; 
+}
+
 /* QUIENES SOMOS */
 .youTube {
     margin: 10px;
     padding: 10px;
-    height: 250px; 
+    height: 70%; 
 }
 
 .mapa-responsive {
-    width: 50%;
-    padding-bottom: 30%;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 .imagen-responsive {
@@ -235,7 +253,10 @@ label {
 
 aside {
     margin: 20px;
-    padding: 10%;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
 
 }
 
