@@ -131,9 +131,10 @@ label {
     display: flex;
 }
 
-.boton-inscripcion button:hover {
-    background-color: #05ff3f;
-    color: #3D03AA;
+.boton-inscripcion:hover {
+    background-color: #3D03AA;
+    color: #05ff3f;
+    border-color: white;
 }
 
 /* QUIENES SOMOS */
