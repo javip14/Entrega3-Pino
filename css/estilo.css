@@ -28,23 +28,15 @@ h3 {
     color: white;
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
 }
 
 h5 {
     color: white;
     font-weight: bold;
-    font-size: 1,8rem;
+    font-size: 1, 8rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: "antonio", sans-serif;
-}
-
-form {
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-button {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -100,25 +92,55 @@ input {
     margin-bottom: 30px;
 }
 
-/* INSCRIPCIONES */
-button {
-    background-color: white;
-    border-radius: 2px;
-    border-color: #05ff3f;
-}
-
 /* INSTALACIONES */
 .googleMaps {
     margin: 10px;
     padding: 10px;
-    height: 70%; 
+    height: 70%;
+}
+
+.boton-inscripcion {
+    background-color: #05ff3f;
+    border-color: white;
+    color: #3D03AA;
+}
+
+/* INSCRIPCIONES */
+.formInscripciones {
+    margin: 30px;
+    color: white;
+    border-color: #05ff3f;
+    box-shadow: #05ff3f;
+}
+
+.formulario {
+    color: #05ff3f;
+    font-weight: bolder;
+    background-color: #05ff3f;
+    text-align: center;
+    text-shadow: #05ff3f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-display: center;
+}
+
+label {
+    font-size: 1rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-display: center;
+    display: flex;
+}
+
+.boton-inscripcion button:hover {
+    background-color: #05ff3f;
+    color: #3D03AA;
 }
 
 /* QUIENES SOMOS */
 .youTube {
     margin: 10px;
     padding: 10px;
-    height: 70%; 
+    height: 70%;
 }
 
 .mapa-responsive {
@@ -143,7 +165,6 @@ button {
 }
 
 .quienesSomos {
-    /* text-align: center; */
     margin: 10px;
     padding-left: 50px;
     padding-right: 50px;
@@ -171,8 +192,7 @@ button {
     color: #3D03AA;
 }
 
-
-/* Banner Noticias */
+/* Noticias */
 
 .tituloHoja {
     background-color: #05ff3f;
@@ -188,29 +208,13 @@ button {
     font-weight: bold;
 }
 
-.formulario {
-    color: #16425b;
-    font-weight: bolder;
-    background-color: rgb(77, 128, 129);
-    text-align: center;
-    text-shadow: #2f6690;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-display: center;
-}
-
-label {
-    text-align: center;
-    font-family: 'Crimson Text', serif;
-    font-display: center;
-    display: flex;
-}
-
 /* galeria de noticias */
 
 .row {
     margin: 20px;
     padding: 0;
 }
+
 .row p {
     color: white;
     text-align: center;
@@ -257,7 +261,6 @@ aside {
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 20px;
-
 }
 
 .gridPadre {
@@ -278,6 +281,7 @@ footer {
 .footerMagic {
     text-align: center;
 }
+
 .socialMedia {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -299,13 +303,14 @@ footer {
     font-family: "antonio", sans-serif;
     text-align: center;
 }
+
 /* VERSIÓN MÓVIL */
 
 @media (min-width: 768px) {
     .gridPadre {
-    display: grid;
-    grid-template-areas: 
-    "footer";
+        display: grid;
+        grid-template-areas:
+            "footer";
     }
 }
 
@@ -313,7 +318,7 @@ footer {
 
 @media (min-width: 1024px) {
     .gridPadre {
-    grid-template-areas:
-    "footer footer footer";
+        grid-template-areas:
+            "footer footer footer";
     }
 }

@@ -54,97 +54,104 @@
         </div>
     </header>
     <!-- CUERPO -->
+    <main>
+        <!-- CAROUSEL -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/banner.jpg" class="d-block w-100" alt="GolUC">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/banner-1.jpg" class="d-block w-100" alt="iquique">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/banner-2.jpg" class="d-block w-100" alt="angello">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/banner-3.jpg" class="d-block w-100" alt="volcan">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/banner-4.jpg" class="d-block w-100" alt="volcanOC">
+                </div>
 
-    <!-- CAROUSEL -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="../img/banner.jpg" class="d-block w-100" alt="GolUC">
-            </div>
-            <div class="carousel-item">
-                <img src="../img/banner-1.jpg" class="d-block w-100" alt="iquique">
-            </div>
-            <div class="carousel-item">
-                <img src="../img/banner-2.jpg" class="d-block w-100" alt="angello">
-            </div>
-            <div class="carousel-item">
-                <img src="../img/banner-3.jpg" class="d-block w-100" alt="volcan">
-            </div>
-            <div class="carousel-item">
-                <img src="../img/banner-4.jpg" class="d-block w-100" alt="volcanOC">
+        <!-- TITULO -->
+
+        <div class="tituloHoja mt-3">
+            <h1>INSCRIPCIONES</h1>
+        </div>
+
+        <div>
+            <h2>INSCRIPCIONES 2024</h2>
+        </div>
+        <div>
+            <div>
+                <h3>COMPLETE LOS DATOS PARA RECIBIR INFORMACIÓN</h3>
             </div>
 
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <!-- TITULO -->
-
-    <div class="tituloHoja mt-3">
-        <h1>INSCRIPCIONES</h1>
-    </div>
-
-    <h3>COMPLETE LOS DATOS PARA RECIBIR INFORMACIÓN</h3>
-
-    <br>
-
-    <form>
-        <ul>
-            <li>
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="user_name" />
-            </li>
-            <br>
-            <li>
-                <label for="mail">Correo electrónico:</label>
-                <input type="email" id="mail" name="user_mail" />
-            </li>
-            <br>
-            <li>
-                <label for="msg">Cuéntanos, de qué equipo eres hincha?:</label>
-                <textarea id="msg" name="user_message"></textarea>
-            </li>
-            <br>
-            <li><button type="submit">Enviar</button>
-                <button type="reset">Reset</button>
-            </li>
-        </ul>
-    </form>
-
-    <!-- auspicios -->
-
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="../img/hulx.png" class="d-block w-100" alt="hulxpro">
+        <div class="formInscripciones">
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                </div>
+                <div class="col-md-4">
+                    <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                </div>
+                <div class="col-md-4">
+                    <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="nombre@gmail.com">
+                </div>
+                <div class="col">
+                    <label for="exampleFormControlTextarea1" class="form-label">Cuéntanos, de qué equipo eres hincha?:
+                    </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary boton-inscripcion">Enviar</button>
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="../img/PG Medic.png" class="d-block w-100" alt="pgmedic">
+
+    </main>
+    <aside>
+        <!-- auspicios -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/hulx.png" class="d-block w-100" alt="hulxpro">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/PG Medic.png" class="d-block w-100" alt="pgmedic">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/siker.png" class="d-block w-100" alt="siker">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="../img/siker.png" class="d-block w-100" alt="siker">
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
+    </aside>
 
     <footer>
         <div class="footerMagic">
