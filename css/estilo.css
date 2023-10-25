@@ -77,6 +77,10 @@ input {
 }
 
 /* FIXTURE */
+.table {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
 
 .tablaFixture {
     margin: 10px;
