@@ -77,9 +77,13 @@ input {
 }
 
 /* FIXTURE */
-.table {
-    background-color: rgba(255, 255, 255, 0);
+.table123 {
+    align-items: center;
+    text-align: center;
     color: white;
+    flex: 0 0 auto;
+    width: 90%;
+    margin: 10%;
 }
 
 .tablaFixture {
