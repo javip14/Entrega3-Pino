@@ -1,0 +1,13 @@
+/* MIXIN */
+@mixin anclas {
+    text-decoration: none;
+    color: $negro;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+// ejemplo
+/* .clase {
+    @include anclas;
+{
+*/

@@ -1,0 +1,18 @@
+/* CAROUSEL */
+
+.carouselExample {
+    margin-bottom: 0px;
+}
+
+.navbar-toggler img {
+    width: 45px;
+    height: 40px;
+}
+
+.estilo-boton {
+    border: solid 2px $blanco;
+
+    &:hover {
+        box-shadow: 0 0 5px $verde;
+    }
+}

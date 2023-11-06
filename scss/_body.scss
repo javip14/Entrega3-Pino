@@ -1,0 +1,60 @@
+/* BODY */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $morado;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "antonio", sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    color: $verde;
+    font-weight: bold;
+    text-align: center;
+    font-family: "antonio", sans-serif;
+}
+
+h3 {
+    color: white;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+}
+
+h5 {
+    color: $blanco;
+    font-weight: bold;
+    font-size: 1, 8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "antonio", sans-serif;
+}
+
+a {
+    color: $blanco;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    color: $blanco;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tituloHoja {
+    background-color: $verde;
+    color: $morado;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px;
+    margin-top: none;
+}

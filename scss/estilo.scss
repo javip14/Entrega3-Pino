@@ -1,0 +1,61 @@
+@import "variables";
+@import "body";
+@import "mixin";
+@import "fuentes";
+@import "nav";
+@import "header";
+@import "carrusel";
+@import "cards";
+@import "form";
+@import "footer";
+
+
+/* INSTALACIONES */
+
+.googleMaps {
+    margin: 10px;
+    padding: 10px;
+    height: 70%;
+}
+
+.textoInstalaciones {
+    text-align: left;
+}
+
+/* QUIENES SOMOS */
+
+.youTube {
+    margin: 10px;
+    padding: 10px;
+    height: 70%;
+}
+
+.mapa-responsive,
+.imagen-responsive {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.centrarElemento {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: block;
+}
+
+.quienesSomos {
+    margin: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* ASIDE */
+aside {
+    margin: 20px;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+}

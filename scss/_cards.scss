@@ -1,0 +1,42 @@
+/* CARDS */
+
+/* galeria de noticias */
+
+.tituloHoja {
+    background-color: $verde;
+    color: $morado;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px;
+    margin-top: none;
+}
+
+.row {
+    margin: 20px;
+    padding: 0;
+
+    p,
+    h5 {
+        color: $blanco;
+        text-align: center;
+    }
+
+    .col .card p {
+        text-align: left;
+        margin: auto;
+    }
+}
+
+.card-text {
+    margin-top: 20px;
+}
+
+.card {
+    background-color: $morado;
+    border: none;
+}
+
+.text-body-secondary {
+    color: $blanco;
+}

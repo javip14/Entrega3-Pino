@@ -1,329 +1,292 @@
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
-
+/* COLORES */
+/* BODY */
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    color: white;
-}
-
-h1 {
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
-    font-family: "antonio", sans-serif;
-}
-
-h2 {
-    font-size: 40px;
-    color: #05ff3f;
-    font-weight: bold;
-    text-align: center;
-    font-family: "antonio", sans-serif;
-}
-
-h3 {
-    color: white;
-    font-size: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 30px;
-}
-
-h5 {
-    color: white;
-    font-weight: bold;
-    font-size: 1, 8rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-family: "antonio", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    /* Color de Fondo */
-    background-color: #3D03AA;
+  background-color: #3D03AA;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "antonio", sans-serif;
+}
+
+h2 {
+  font-size: 40px;
+  color: #05ff3f;
+  font-weight: bold;
+  text-align: center;
+  font-family: "antonio", sans-serif;
+}
+
+h3 {
+  color: white;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 30px;
+}
+
+h5 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1, 8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "antonio", sans-serif;
 }
 
 a {
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
-    color: white;
-    font-size: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.tituloHoja {
+  background-color: #05ff3f;
+  color: #3D03AA;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
+  margin-top: none;
+}
+
+/* MIXIN */
+/* .clase {
+    @include anclas;
+{
+*/
+/* NAV */
+.fuentesNav {
+  color: #ffffff;
+  font-size: 1, 5rem;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+
+.fuentesNav a:hover {
+  background-color: #05ff3f;
+  color: #3D03AA;
+}
+
+/* HEADER */
+header {
+  color: #ffffff;
+}
+
+.ligaLogo {
+  width: 120px;
+}
+
+/* CAROUSEL */
+.carouselExample {
+  margin-bottom: 0px;
+}
+
+.navbar-toggler img {
+  width: 45px;
+  height: 40px;
+}
+
+.estilo-boton {
+  border: solid 2px #ffffff;
+}
+.estilo-boton:hover {
+  box-shadow: 0 0 5px #05ff3f;
+}
+
+/* CARDS */
+/* galeria de noticias */
+.tituloHoja {
+  background-color: #05ff3f;
+  color: #3D03AA;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
+  margin-top: none;
+}
+
+.row {
+  margin: 20px;
+  padding: 0;
+}
+.row p,
+.row h5 {
+  color: #ffffff;
+  text-align: center;
+}
+.row .col .card p {
+  text-align: left;
+  margin: auto;
+}
+
+.card-text {
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #3D03AA;
+  border: none;
+}
+
+.text-body-secondary {
+  color: #ffffff;
+}
+
+/* FORMULARIO */
 label {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 form ul li label {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 form ul li textarea {
-    width: 300px;
-    box-sizing: border-box;
-    border: 1px solid #05ff3f;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #05ff3f;
 }
 
 input {
-    width: 300px;
-    box-sizing: border-box;
-    border: 1px solid #05ff3f;
-}
-
-/* FIXTURE */
-.table123 {
-    align-items: center;
-    text-align: center;
-    color: white;
-    flex: 0 0 auto;
-    width: 90%;
-    margin: 10%;
-}
-
-.tablaFixture {
-    margin: 10px;
-    padding: 10px;
-}
-
-/* INSTALACIONES */
-.googleMaps {
-    margin: 10px;
-    padding: 10px;
-    height: 70%;
-}
-
-.textoInstalaciones {
-    text-align: left;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #05ff3f;
 }
 
 /* INSCRIPCIONES */
 .boton-inscripcion {
-    background-color: #05ff3f;
-    border-color: white;
-    color: #3D03AA;
+  background-color: #05ff3f;
+  border-color: #ffffff;
+  color: #3D03AA;
 }
 
 .formInscripciones {
-    margin: 30px;
-    color: white;
-    border-color: #05ff3f;
-    box-shadow: #05ff3f;
+  margin: 30px;
+  color: #ffffff;
+  border-color: #05ff3f;
+  box-shadow: #05ff3f;
 }
 
 .formulario {
-    color: #05ff3f;
-    font-weight: bolder;
-    background-color: #05ff3f;
-    text-align: center;
-    text-shadow: #05ff3f;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-display: center;
+  color: #05ff3f;
+  font-weight: bolder;
+  background-color: #05ff3f;
+  text-align: center;
+  text-shadow: #05ff3f;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-display: center;
 }
 
 label {
-    font-size: 1rem;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-display: center;
-    display: flex;
+  font-size: 1rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-display: center;
+  display: flex;
 }
 
 .boton-inscripcion:hover {
-    background-color: #3D03AA;
-    color: #05ff3f;
-    border-color: white;
+  background-color: #3D03AA;
+  color: #05ff3f;
+  border-color: #ffffff;
+}
+
+/* FOOTER */
+footer {
+  background-image: url(../img/footer.jpg);
+  grid-area: footer;
+  height: 250px;
+  padding-top: 60px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  border: 10px;
+}
+
+.footerMagic {
+  text-align: center;
+}
+
+.socialMedia {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.derechosReservados {
+  color: #000000;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.ligaDelos {
+  color: #000000;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "antonio", sans-serif;
+  text-align: center;
+}
+
+/* INSTALACIONES */
+.googleMaps {
+  margin: 10px;
+  padding: 10px;
+  height: 70%;
+}
+
+.textoInstalaciones {
+  text-align: left;
 }
 
 /* QUIENES SOMOS */
 .youTube {
-    margin: 10px;
-    padding: 10px;
-    height: 70%;
+  margin: 10px;
+  padding: 10px;
+  height: 70%;
 }
 
-.mapa-responsive {
-    width: 70%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-}
-
+.mapa-responsive,
 .imagen-responsive {
-    width: 70%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
 
 .centrarElemento {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: block;
 }
 
 .quienesSomos {
-    margin: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+  margin: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-/* header */
-.ligaLogo {
-    width: 120px;
-}
-
-.fuentesNav {
-    color: white;
-    font-size: 1, 5rem;
-    text-transform: uppercase;
-    padding-left: 15px;
-}
-
-.fuentesNav a:hover {
-    background-color: #05ff3f;
-    color: #3D03AA;
-}
-
-/* Noticias */
-
-.tituloHoja {
-    background-color: #05ff3f;
-    color: #3D03AA;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 16px;
-    margin-top: none;
-}
-
-.titulosTabla {
-    font-weight: bold;
-}
-
-/* galeria de noticias */
-
-.row {
-    margin: 20px;
-    padding: 0;
-}
-
-.row p {
-    color: white;
-    text-align: center;
-}
-
-.row h5 {
-    color: white;
-    text-align: center;
-}
-
-.row .col .card p {
-    text-align: left;
-    margin: auto;
-}
-
-
-.card-text {
-    margin-top: 20px;
-}
-
-.card {
-    background-color: #3d03aa1a;
-    border: none;
-}
-
-.text-body-secondary {
-    color: white;
-}
-
-.carouselExample {
-    margin-bottom: 0px;
-}
-
-.navbar-toggler img {
-    width: 45px;
-    height: 40px;
-}
-
-.estilo-boton {
-    border: solid 2px white;
-}
-
-.estilo-boton:hover {
-    box-shadow: 0 0 5px #05ff3f;
-}
-
+/* ASIDE */
 aside {
-    margin: 20px;
-    padding-top: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 20px;
+  margin: 20px;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 20px;
 }
 
-.gridPadre {
-    text-align: center;
-}
-
-footer {
-    background-image: url(../img/footer.jpg);
-    grid-area: footer;
-    height: 250px;
-    padding-top: 60px;
-    padding-right: 30px;
-    padding-bottom: 0px;
-    padding-left: 30px;
-    border: 10px;
-}
-
-.footerMagic {
-    text-align: center;
-}
-
-.socialMedia {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.derechosReservados {
-    color: black;
-    font-size: 15px;
-    font-weight: lighter;
-    text-align: center;
-}
-
-.ligaDelos {
-    color: black;
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: "antonio", sans-serif;
-    text-align: center;
-}
-
-/* VERSIÓN MÓVIL */
-
-@media (min-width: 768px) {
-    .gridPadre {
-        display: grid;
-        grid-template-areas:
-            "footer";
-    }
-}
-
-/* VERSIÓN ESCRITORIO */
-
-@media (min-width: 1024px) {
-    .gridPadre {
-        grid-template-areas:
-            "footer footer footer";
-    }
-}
+/*# sourceMappingURL=estilo.css.map */

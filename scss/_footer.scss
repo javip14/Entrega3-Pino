@@ -1,0 +1,38 @@
+/* FOOTER */
+
+footer {
+    background-image: url(../img/footer.jpg);
+    grid-area: footer;
+    height: 250px;
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    border: 10px;
+}
+
+.footerMagic {
+    text-align: center;
+}
+
+.socialMedia {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.derechosReservados {
+    color: $negro;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.ligaDelos {
+    color: $negro;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "antonio", sans-serif;
+    text-align: center;
+}
