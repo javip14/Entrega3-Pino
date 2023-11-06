@@ -1,10 +1,10 @@
 /* CARDS */
 
-/* galeria de noticias */
+/* Galeria de Noticias */
 
 .tituloHoja {
-    background-color: $verde;
-    color: $morado;
+    background-color: #05ff3f;
+    color: #3D03AA;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -18,7 +18,7 @@
 
     p,
     h5 {
-        color: $blanco;
+        color: white;
         text-align: center;
     }
 
@@ -33,10 +33,10 @@
 }
 
 .card {
-    background-color: $morado;
+    background-color: #3d03aa1a;
     border: none;
 }
 
 .text-body-secondary {
-    color: $blanco;
+    color: white;
 }

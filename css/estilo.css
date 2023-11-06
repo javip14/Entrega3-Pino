@@ -106,7 +106,7 @@ header {
 }
 
 /* CARDS */
-/* galeria de noticias */
+/* Galeria de Noticias */
 .tituloHoja {
   background-color: #05ff3f;
   color: #3D03AA;
@@ -123,7 +123,7 @@ header {
 }
 .row p,
 .row h5 {
-  color: #ffffff;
+  color: white;
   text-align: center;
 }
 .row .col .card p {
@@ -136,12 +136,31 @@ header {
 }
 
 .card {
-  background-color: #3D03AA;
+  background-color: rgba(61, 3, 170, 0.1019607843);
   border: none;
 }
 
 .text-body-secondary {
+  color: white;
+}
+
+/* TABLAS */
+.table123 {
+  align-items: center;
+  text-align: center;
   color: #ffffff;
+  flex: 0 0 auto;
+  width: 90%;
+  margin: 10%;
+}
+
+.tablaFixture {
+  margin: 10px;
+  padding: 10px;
+}
+
+.titulosTabla {
+  font-weight: bold;
 }
 
 /* FORMULARIO */
