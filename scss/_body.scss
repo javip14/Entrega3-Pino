@@ -4,22 +4,40 @@
     padding: 0;
 }
 
-main {
-    background-color: $morado;
-    background-image: url(../img/tactics.svg);
-    grid-area: main;
-}
-
 body {
     background-color: $morado;
+    background-image: url(../img/tactics.svg);
     grid-area: body;
+}
+
+/* ASIDE */
+aside {
+    margin: 20px;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+}
+
+@keyframes texto {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }
 
 h1 {
     font-size: 60px;
     font-weight: bold;
     text-align: center;
-    font-family: "antonio", sans-serif;
+    font-family: $antonio;
+    animation-name: texto;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
 }
 
 h2 {
@@ -27,7 +45,7 @@ h2 {
     color: $verde;
     font-weight: bold;
     text-align: center;
-    font-family: "antonio", sans-serif;
+    font-family: $antonio;
 }
 
 h3 {
@@ -40,9 +58,8 @@ h3 {
 h5 {
     color: $blanco;
     font-weight: bold;
-    font-size: 1, 8rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-family: "antonio", sans-serif;
+    font-size: 25px;
+    font-family: $antonio;
 }
 
 a {

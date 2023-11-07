@@ -1,4 +1,5 @@
 /* COLORES */
+/* Fuente */
 /* BODY */
 @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap");
 * {
@@ -6,22 +7,38 @@
   padding: 0;
 }
 
-main {
-  background-color: #3D03AA;
-  background-image: url(../img/tactics.svg);
-  grid-area: main;
-}
-
 body {
   background-color: #3D03AA;
+  background-image: url(../img/tactics.svg);
   grid-area: body;
 }
 
+/* ASIDE */
+aside {
+  margin: 20px;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 20px;
+}
+
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
 h1 {
   font-size: 60px;
   font-weight: bold;
   text-align: center;
   font-family: "antonio", sans-serif;
+  animation-name: texto;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-delay: 1s;
 }
 
 h2 {
@@ -42,8 +59,7 @@ h3 {
 h5 {
   color: #ffffff;
   font-weight: bold;
-  font-size: 1, 8rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
   font-family: "antonio", sans-serif;
 }
 
@@ -231,10 +247,10 @@ label {
 
 /* FOOTER */
 footer {
-  background-image: url(../img/footer.png);
+  background-image: linear-gradient(to bottom, #3D03AA, black, black);
   grid-area: footer;
-  height: 250px;
-  padding-top: 60px;
+  height: 300px;
+  padding-top: 120px;
   padding-right: 30px;
   padding-bottom: 0px;
   padding-left: 30px;
@@ -243,6 +259,7 @@ footer {
 
 .footerMagic {
   text-align: center;
+  position: fixed bottom;
 }
 
 .socialMedia {
@@ -253,14 +270,15 @@ footer {
 }
 
 .derechosReservados {
-  color: #000000;
-  font-size: 15px;
+  color: #ffffff;
+  font-size: 1rem;
   font-weight: lighter;
   text-align: center;
+  font-family: "antonio", sans-serif;
 }
 
 .ligaDelos {
-  color: #000000;
+  color: #ffffff;
   font-size: 2rem;
   font-weight: bold;
   font-family: "antonio", sans-serif;
@@ -304,15 +322,6 @@ footer {
   margin: 10px;
   padding-left: 50px;
   padding-right: 50px;
-}
-
-/* ASIDE */
-aside {
-  margin: 20px;
-  padding-top: 20px;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

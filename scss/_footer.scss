@@ -1,10 +1,12 @@
 /* FOOTER */
 
 footer {
-    background-image: url(../img/footer.png);
+    //background-image: url(../img/footer.png);
+    //background-image: linear-gradient(to bottom, #3D03AA 5%, $blanco 60%, $blanco 100%);
+    background-image: linear-gradient(to bottom, $morado, black, black);
     grid-area: footer;
-    height: 250px;
-    padding-top: 60px;
+    height: 300px;
+    padding-top: 120px;
     padding-right: 30px;
     padding-bottom: 0px;
     padding-left: 30px;
@@ -13,6 +15,8 @@ footer {
 
 .footerMagic {
     text-align: center;
+    position: fixed bottom;
+
 }
 
 .socialMedia {
@@ -23,16 +27,17 @@ footer {
 }
 
 .derechosReservados {
-    color: $negro;
-    font-size: 15px;
+    color: $blanco;
+    font-size: 1rem;
     font-weight: lighter;
     text-align: center;
+    font-family: $antonio;
 }
 
 .ligaDelos {
-    color: $negro;
+    color: $blanco;
     font-size: 2rem;
     font-weight: bold;
-    font-family: "antonio", sans-serif;
+    font-family: $antonio;
     text-align: center;
 }
