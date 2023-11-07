@@ -6,8 +6,15 @@
   padding: 0;
 }
 
+main {
+  background-color: #3D03AA;
+  background-image: url(../img/tactics.svg);
+  grid-area: main;
+}
+
 body {
   background-color: #3D03AA;
+  grid-area: body;
 }
 
 h1 {

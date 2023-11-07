@@ -4,8 +4,15 @@
     padding: 0;
 }
 
+main {
+    background-color: $morado;
+    background-image: url(../img/tactics.svg);
+    grid-area: main;
+}
+
 body {
     background-color: $morado;
+    grid-area: body;
 }
 
 h1 {
