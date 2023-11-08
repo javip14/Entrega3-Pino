@@ -1,7 +1,16 @@
 /* COLORES */
-/* Fuente */
-/* BODY */
+/* FUENTES */
+/* ANIMACIONES */
 @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap");
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+/* BODY */
 * {
   margin: 0;
   padding: 0;
@@ -22,14 +31,6 @@ aside {
   padding-bottom: 20px;
 }
 
-@keyframes texto {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 100%;
-  }
-}
 h1 {
   font-size: 60px;
   font-weight: bold;
@@ -85,10 +86,7 @@ p {
 }
 
 /* MIXIN */
-/* .clase {
-    @include anclas;
-{
-*/
+/* FUENTE */
 /* NAV */
 .fuentesNav {
   color: #ffffff;

@@ -1,13 +1,20 @@
 /* MIXIN */
-@mixin anclas {
-    text-decoration: none;
-    color: $negro;
-    text-transform: uppercase;
-    font-weight: bold;
+
+@mixin marginSocial {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-// ejemplo
-/* .clase {
-    @include anclas;
-{
-*/
+@mixin formFormat {
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid $verde;
+}
+
+@mixin mapsTube {
+    margin: 10px;
+    padding: 10px;
+    height: 70%;
+}

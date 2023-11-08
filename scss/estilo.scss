@@ -11,11 +11,8 @@
 @import "footer";
 
 /* INSTALACIONES */
-
 .googleMaps {
-    margin: 10px;
-    padding: 10px;
-    height: 70%;
+    @include mapsTube;
 }
 
 .textoInstalaciones {
@@ -25,9 +22,7 @@
 /* QUIENES SOMOS */
 
 .youTube {
-    margin: 10px;
-    padding: 10px;
-    height: 70%;
+    @include mapsTube;
 }
 
 .mapa-responsive,

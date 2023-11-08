@@ -1,8 +1,20 @@
 /* COLORES */
+
 $morado: #3D03AA;
 $verde: #05ff3f;
 $blanco: #ffffff;
 $negro: #000000;
 
-/* Fuente */
+/* FUENTES */
 $antonio: "antonio", sans-serif;
+
+/* ANIMACIONES */
+@keyframes texto {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}

@@ -1,8 +1,6 @@
 /* FOOTER */
 
 footer {
-    //background-image: url(../img/footer.png);
-    //background-image: linear-gradient(to bottom, #3D03AA 5%, $blanco 60%, $blanco 100%);
     background-image: linear-gradient(to bottom, $morado, black, black);
     grid-area: footer;
     height: 300px;
@@ -16,13 +14,6 @@ footer {
 .footerMagic {
     text-align: center;
     position: fixed bottom;
-}
-
-@mixin marginSocial {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .socialMedia {
