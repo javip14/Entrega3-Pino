@@ -146,7 +146,7 @@ header {
 }
 .row p,
 .row h5 {
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 .row .col .card p {
@@ -159,12 +159,12 @@ header {
 }
 
 .card {
-  background-color: rgba(61, 3, 170, 0.1019607843);
+  background-color: #3D03AA;
   border: none;
 }
 
 .text-body-secondary {
-  color: white;
+  color: #ffffff;
 }
 
 /* TABLAS */

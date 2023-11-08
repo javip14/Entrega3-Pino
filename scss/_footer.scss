@@ -16,14 +16,17 @@ footer {
 .footerMagic {
     text-align: center;
     position: fixed bottom;
-
 }
 
-.socialMedia {
+@mixin marginSocial {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.socialMedia {
+    @include marginSocial;
 }
 
 .derechosReservados {

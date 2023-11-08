@@ -18,7 +18,7 @@
 
     p,
     h5 {
-        color: white;
+        color: $blanco;
         text-align: center;
     }
 
@@ -33,10 +33,10 @@
 }
 
 .card {
-    background-color: #3d03aa1a;
+    background-color: $morado;
     border: none;
 }
 
 .text-body-secondary {
-    color: white;
+    color: $blanco;
 }
