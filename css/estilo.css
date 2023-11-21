@@ -90,6 +90,16 @@ p {
   margin: 20px;
 }
 
+.equipoLogo {
+  height: 40px;
+  align-self: center;
+}
+
+.equipoMuestra {
+  height: 80px;
+  align-self: center;
+}
+
 /* MIXIN */
 /* FUENTE */
 /* NAV */
@@ -189,6 +199,11 @@ header {
 .container {
   font-family: "antonio", sans-serif;
   font-size: 1, 5rem;
+  align-content: center;
+}
+
+td {
+  align-content: center;
 }
 
 /* FORMULARIO */
