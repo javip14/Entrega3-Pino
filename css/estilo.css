@@ -1,7 +1,8 @@
 /* COLORES */
 /* FUENTES */
 /* ANIMACIONES */
-@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@200;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @keyframes texto {
   0% {
     opacity: 0;
@@ -197,12 +198,8 @@ header {
 
 /* TABLAS */
 .container {
-  font-family: "antonio", sans-serif;
-  font-size: 1, 5rem;
-  align-content: center;
-}
-
-td {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
   align-content: center;
 }
 
