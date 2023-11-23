@@ -155,8 +155,8 @@ header {
 }
 
 .row {
-  margin: 20px;
-  padding: 0;
+  margin: auto;
+  padding: auto;
 }
 .row p,
 .row h5 {
@@ -199,8 +199,11 @@ header {
 /* TABLAS */
 .container {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   align-content: center;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
 }
 
 /* FORMULARIO */
